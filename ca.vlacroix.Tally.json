@@ -29,8 +29,8 @@
 			"no-autogen": true,
 			"sources": [{
 				"type": "archive",
-				"url": "https://github.com/vtrlx/tally/archive/refs/tags/0.6.zip",
-				"sha256": "c05be1ca36d6fa751916945d770ed9bd9b5102e31c6847ffde53e878d740445c"
+				"url": "https://github.com/vtrlx/tally/archive/refs/tags/0.6.1.zip",
+				"sha256": "4ba5e6cbd3408e46603223698b813fed330cc2c1915e52ffa80ea568568c4505"
 			}]
 		}
 	]
