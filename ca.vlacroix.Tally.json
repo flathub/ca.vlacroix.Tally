@@ -30,8 +30,8 @@
 			"sources": [{
 				"type": "git",
 				"url": "https://github.com/vtrlx/tally",
-				"tag": "0.6.1",
-				"commit": "e40bf57686b139e348200f4b3c4337c4b790e479"
+				"tag": "0.6.2",
+				"commit": "f60a54704f393d36db68c150c3c081e2001d9105"
 			}]
 		}
 	]
