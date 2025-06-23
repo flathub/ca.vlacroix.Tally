@@ -19,18 +19,19 @@
 			"make-args": ["LUA_VERSION=5.4"],
 			"make-install-args": ["LUA_VERSION=5.4", "PREFIX=/app"],
 			"sources": [{
-				"type": "archive",
-				"url": "https://github.com/lgi-devs/lgi/archive/e06ad94c8a1c84e3cdb80cee293450a280dfcbc7.zip",
-				"sha256": "003984a7a33236cc2368bf8c87905b6867d1292f844df236051a7b45f134d272"
+				"type": "git",
+				"url": "https://github.com/lgi-devs/lgi",
+				"commit": "a412921fad445bcfc05a21148722a92ecb93ad06"
 			}]
 		},
 		{
 			"name": "tally",
 			"no-autogen": true,
 			"sources": [{
-				"type": "archive",
-				"url": "https://github.com/vtrlx/tally/archive/refs/tags/0.6.1.zip",
-				"sha256": "4ba5e6cbd3408e46603223698b813fed330cc2c1915e52ffa80ea568568c4505"
+				"type": "git",
+				"url": "https://github.com/vtrlx/tally",
+				"tag": "0.6.2",
+				"commit": "f60a54704f393d36db68c150c3c081e2001d9105"
 			}]
 		}
 	]
