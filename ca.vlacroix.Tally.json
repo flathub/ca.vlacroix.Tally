@@ -1,7 +1,7 @@
 {
 	"app-id": "ca.vlacroix.Tally",
 	"runtime": "org.gnome.Platform",
-	"runtime-version": "48",
+	"runtime-version": "49",
 	"sdk": "org.gnome.Sdk",
 	"command": "tally",
 	"finish-args": [
@@ -13,15 +13,15 @@
 	"modules": [
 		"shared-modules/lua5.4/lua-5.4.json",
 		{
-			"name": "lgi",
+			"name": "LuaGObject",
 			"no-autogen": true,
-			"subdir": "lgi",
+			"subdir": "LuaGObject",
 			"make-args": ["LUA_VERSION=5.4"],
 			"make-install-args": ["LUA_VERSION=5.4", "PREFIX=/app"],
 			"sources": [{
 				"type": "git",
-				"url": "https://github.com/lgi-devs/lgi",
-				"commit": "a412921fad445bcfc05a21148722a92ecb93ad06"
+				"url": "https://github.com/vtrlx/LuaGObject",
+				"tag": "0.10.2"
 			}]
 		},
 		{
@@ -30,8 +30,7 @@
 			"sources": [{
 				"type": "git",
 				"url": "https://github.com/vtrlx/tally",
-				"tag": "0.6.3",
-				"commit": "28ed411df4967406b02e44b3714896064c6e4e1e"
+				"tag": "0.7"
 			}]
 		}
 	]
